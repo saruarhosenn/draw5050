@@ -1,0 +1,11 @@
+.deaw-link-title h2 {
+	font-size: 40px;
+	word-spacing: 8px;
+	margin-bottom: 60px;
+}
+
+@media (max-width: 575px) {
+	.deaw-link-title h2 {
+		font-size: 30px;
+	}
+}

@@ -1,0 +1,64 @@
+.banner-section {
+	position: relative;
+	background-color: #FFD533;
+	padding: 120px 0 250px;
+}
+
+.hero-content .hero-img img {
+	max-width: 300px;
+}
+
+.hero-content .hero-text h2 {
+	font-weight: 700;
+	font-size: 40px;
+}
+
+/* 
+--------------------------------
+Shape Divider 
+--------------------------------
+*/
+
+/* Bottom Shape CSS */
+.custom-shape-divider-bottom-1641230450 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1641230450 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 132px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1641230450 .shape-fill {
+    fill: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1641230450 svg {
+        width: calc(100% + 1.3px);
+        height: 58px;
+    }
+
+    .banner-section {
+        padding-bottom: 160px;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner-section {
+        padding: 50px 0 130px;
+    }
+
+    .hero-content .hero-text h2 {
+        font-size: 35px;
+    }
+}

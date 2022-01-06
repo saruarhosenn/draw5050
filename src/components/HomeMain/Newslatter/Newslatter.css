@@ -1,0 +1,69 @@
+.newsletter-section {
+	background-color: #F2F3F9;
+}
+
+.newsletter-title h2 {
+	font-size: 50px;
+	margin-bottom: 60px;
+}
+
+.newsletter-form {
+	margin: 0 auto;
+	max-width: 550px;
+}
+
+.newsletter-fild input {
+	width: 70%;
+	padding: 20px 15px;
+	background: #FFFFFF;
+}
+
+.newsletter-fild input,
+.newsletter-fild input::placeholder {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	color: #212121;
+}
+
+.newsletter-fild button {
+	width: 30%;
+	padding: 20px 0;
+	background: #FFD533;
+	font-size: 17px;
+	color: #212121;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.newsletter-fild :is(input, button) {
+	-webkit-box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+	box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+@media (max-width: 575px) {
+	.newsletter-title h2 {
+		font-size: 40px;
+	}
+
+	.newsletter-fild :is(input, button) {
+		font-size: 16px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.newsletter-fild input {
+		width: 100%;
+	}
+
+	.newsletter-fild button {
+		width: 100%;
+		max-width: 200px;
+		margin: 20px auto 0;
+		border-radius: 4px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		-ms-border-radius: 4px;
+		-o-border-radius: 4px;
+	}
+}

@@ -1,0 +1,55 @@
+.table-area >:not(caption) > * > * {
+    padding: 10px 15px;
+}
+
+.table-body-content {
+	border-top: 2px solid #dee2e6 !important;
+}
+
+.table-area>:not(caption)>*>* {
+    border-bottom-width: 0px;
+	border-right-width: 2px;
+}
+
+.table-area thead tr th:last-child,
+.table-area tbody tr td:last-child {
+	border-right-width: 0px;
+}
+
+table :is(th, td) {
+	font-size: 18px;
+}
+
+.table-body-content td {
+	font-weight: 600;
+	vertical-align: middle;
+}
+
+.deaw-link-btn {
+	font-size: 18px;
+	font-weight: 500;
+	background-color: #FFD533;
+	color: #212121;
+}
+
+.deaw-link-btn:hover {
+	color: #212121;
+}
+
+.see-all-btn {
+	font-weight: 500;
+	font-size: 22px;
+	color: #212121;
+	text-decoration: underline;
+}
+
+.see-all-btn:hover {
+	color: #212121;
+	text-decoration: none;
+}
+
+@media (max-width: 575px) {
+	table :is(th, td) {
+		font-size: 15px;
+	}
+}
